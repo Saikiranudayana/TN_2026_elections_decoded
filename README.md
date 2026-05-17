@@ -2,7 +2,7 @@
 
 A professional multi-page Streamlit dashboard for the 2026 Tamil Nadu Legislative Assembly Election.
 
-📊 **[View Project Presentation](TN_Elections_Pitch_final_1.pptx)**
+📊 **[View Project Presentation](TN_Elections_2026_decoded.pptx)**
 
 ## Features
 
