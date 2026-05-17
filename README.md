@@ -2,29 +2,18 @@
 
 A professional multi-page Streamlit dashboard for the 2026 Tamil Nadu Legislative Assembly Election.
 
+📊 **[View Project Presentation](TN_Elections_Pitch_final_1.pptx)**
+
 ## Features
 
 - **Layer 1** — Data Pipeline: automated data cleaning & preprocessing
-- **Layer 2** — Core Dashboard: 7-page Streamlit app with rich Plotly charts
-- **Layer 3** — AI Intelligence Agent: LangGraph + Tavily for live news & video
+- **Layer 2** — Core Dashboard: 6-page Streamlit app with rich Plotly charts
 
 ## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
-
-## Setup
-
-1. Copy the example env file and fill in your API keys:
-   ```bash
-   cp .env.example .env
-   ```
-2. Edit `.env`:
-   ```
-   TAVILY_API_KEY=tvly-your-actual-key
-   ANTHROPIC_API_KEY=sk-ant-your-actual-key
-   ```
 
 ## Data Pipeline
 
@@ -58,10 +47,8 @@ streamlit run app.py
 | 📊 Vote Share Story | Party vote share shifts, TVK analysis |
 | 📏 Margin Story | Margin of victory analysis |
 | ⚖️ Reserved Seats | SC/ST/GEN constituency breakdown |
-| 🤖 AI News Agent | LangGraph agent for live news and Q&A |
 
 ## Notes
 
 - 2026 turnout is displayed as 85.1% (state average); per-constituency data is unavailable.
 - TVK is a new party that did not exist in 2021.
-- The AI News Agent requires valid TAVILY_API_KEY and ANTHROPIC_API_KEY in `.env`.
